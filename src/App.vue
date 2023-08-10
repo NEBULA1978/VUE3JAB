@@ -8,6 +8,9 @@
       <router-link to="/quienes-somos" class="nav-button">
         <button>Quiénes Somos</button>
       </router-link>
+      <router-link to="/contactame" class="nav-button">
+        <button>Contactamé</button>
+      </router-link>
     </div>
   </div>
 </template>
