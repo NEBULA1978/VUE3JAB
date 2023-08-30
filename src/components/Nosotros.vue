@@ -8,11 +8,12 @@
         </router-link>
     </div>
 
-    <h2>Hola Mundo VUE3</h2>
+    <h2>Hola Mundo VUE3 con {{ miNombre }}</h2>
 
 </template>
 
 <script setup>
+const miNombre="Jab"
 </script>
 
 <style scoped>
