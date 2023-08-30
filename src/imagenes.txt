@@ -1,0 +1,4 @@
+si las pongo en assets:
+cuando esto se compile aqui se colocan aquellas imagenes o ficheros que tiene que ser procesados que queremos que sea procesado por ejemplo el css
+
+cuando quiero procesar imagenes estaticas las dejo dentro de carpeta public:

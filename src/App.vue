@@ -22,8 +22,14 @@
       <HijoVue2 />
     </div> -->
     <!-- <h2>Hola Mundo VUE3</h2> -->
+    <!-- Desde url -->
+    <img src="https://www.html6.es/img_html/micanalyoutube.png" alt="">
+    <!-- Desde variable -->
+    <img :src="imagen1" alt="">
+    <img :src="imagen2" alt="">
     <ArteCuadros/>
     <Contacto/>
+
   </div>
 </template>
 
@@ -34,6 +40,8 @@ import { provide, ref } from "vue";
 // import HijoVue2 from "./components/Hijo2.vue";
 import ArteCuadros from "./components/ArteCuadros.vue";
 import Contacto from "./components/Contacto.vue";
+// Para ver imagenes de carpeta assets
+import imagen2 from "./assets/logo.svg"
 
 const cambiarValor = (valor1, valor2) => {
   nombre.value = valor1;
@@ -43,7 +51,8 @@ const nombre = ref('Jab');
 const edad = ref(18);
 const canal = ref("soyjab")
 provide('miCanal', canal)
-
+// Asignamos la imagen a variable
+const imagen1= "https://www.html6.es/img_html/micanalyoutube.png"
 const router = useRouter();
 </script>
 
