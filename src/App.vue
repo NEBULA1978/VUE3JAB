@@ -15,6 +15,7 @@
       <HijoVue :nombre="nombre" :edad="edad" @modificar="cambiarValor" />
       <HijoVue2 />
     </div>
+    <!-- <h2>Hola Mundo VUE3</h2> -->
   </div>
 </template>
 
@@ -37,6 +38,9 @@ const router = useRouter();
 </script>
 
 <style scoped>
+/* h2{
+  color:red;
+} */
 .app-container {
   display: flex;
   flex-direction: column;
