@@ -11,6 +11,9 @@
       <router-link to="/ArteCuadros" class="nav-button">
         <button>ArteCuadros</button>
       </router-link>
+      <router-link to="/Contacto" class="nav-button">
+        <button>Contacto</button>
+      </router-link>
     </div>
     <!-- Agrega los componentes aquí -->
     <div>
@@ -20,6 +23,7 @@
     </div>
     <!-- <h2>Hola Mundo VUE3</h2> -->
     <ArteCuadros/>
+    <Contacto/>
   </div>
 </template>
 
@@ -29,6 +33,7 @@ import { provide, ref } from "vue";
 import HijoVue from "./components/Hijo.vue";
 import HijoVue2 from "./components/Hijo2.vue";
 import ArteCuadros from "./components/ArteCuadros.vue";
+import Contacto from "./components/Contacto.vue";
 
 const cambiarValor = (valor1, valor2) => {
   nombre.value = valor1;

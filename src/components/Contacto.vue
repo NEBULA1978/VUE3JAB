@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Quiénes Somos</h2>
+        <h2>Contactanos sin compromiso</h2>
         <!-- Contenido de la página Quiénes Somos -->
 
         <router-link to="/">
