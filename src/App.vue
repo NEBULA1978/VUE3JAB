@@ -16,11 +16,11 @@
       </router-link>
     </div>
     <!-- Agrega los componentes aquí -->
-    <div>
+    <!-- <div>
       <h1>Padre:</h1>
       <HijoVue :nombre="nombre" :edad="edad" @modificar="cambiarValor" />
       <HijoVue2 />
-    </div>
+    </div> -->
     <!-- <h2>Hola Mundo VUE3</h2> -->
     <ArteCuadros/>
     <Contacto/>
@@ -30,8 +30,8 @@
 <script setup>
 import { useRouter } from 'vue-router';
 import { provide, ref } from "vue";
-import HijoVue from "./components/Hijo.vue";
-import HijoVue2 from "./components/Hijo2.vue";
+// import HijoVue from "./components/Hijo.vue";
+// import HijoVue2 from "./components/Hijo2.vue";
 import ArteCuadros from "./components/ArteCuadros.vue";
 import Contacto from "./components/Contacto.vue";
 
