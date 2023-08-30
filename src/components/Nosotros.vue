@@ -8,12 +8,13 @@
         </router-link>
     </div>
 
-    <h2>Hola Mundo VUE3 con {{ miNombre }}</h2>
+    <h2>Hola Mundo VUE3 con {{ miNombre }} y tengo {{ miEdad+3 }}</h2>
 
 </template>
 
 <script setup>
 const miNombre="Jab"
+const miEdad=18
 </script>
 
 <style scoped>
